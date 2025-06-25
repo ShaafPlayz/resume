@@ -11,19 +11,15 @@
       <span><a href={work.url}>{work.name}</a> | {work.position}</span>
       <span
         >{#if work.startDate}
-        {formatDate(work.startDate)} — {isPresent(work.endDate)
-          ? 'Present'
-          : formatDate(work.endDate)}
+          {formatDate(work.startDate)} — {isPresent(work.endDate)
+            ? 'Present'
+            : formatDate(work.endDate)}
+        {/if}
 
-          {/if}
-          
-          {#if work.repo}
-            <a href={work.repo}>(<strong>GitHub</strong>)</a>
-          {/if}
-      
-      </span
-      >
-      
+        {#if work.repo}
+          <a href={work.repo}>(<strong>GitHub</strong>)</a>
+        {/if}
+      </span>
     </p>
     {#if work.highlights.length > 0}
       <ul>
