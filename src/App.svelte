@@ -35,10 +35,13 @@
   <h3>SKILLS</h3>
   <Skills skills={resume.skills} />
 
-  <h3>EXPERIENCE</h3>
+  <h3>ACADEMIC PROJECTS</h3>
   <Experience experience={resume.work} />
 
-  <h3>PROJECTS</h3>
+  <h3>HACKATHON PROJECTS</h3>
+  <Experience experience={resume.hackathon} />
+
+  <h3>SIDE PROJECTS</h3>
   <Projects projects={resume.projects} />
 </main>
 

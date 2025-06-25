@@ -17,7 +17,7 @@
       </p>
     </div>
     <p>
-      <strong>Teaching Assistant:</strong>
+      <strong>Relevant Courses:</strong>
       {@html school.courses.join(', ')}
     </p>
   {/each}

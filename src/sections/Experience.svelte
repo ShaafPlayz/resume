@@ -10,16 +10,29 @@
     <p>
       <span><a href={work.url}>{work.name}</a> | {work.position}</span>
       <span
-        >{formatDate(work.startDate)} — {isPresent(work.endDate)
+        >{#if work.startDate}
+        {formatDate(work.startDate)} — {isPresent(work.endDate)
           ? 'Present'
-          : formatDate(work.endDate)}</span
+          : formatDate(work.endDate)}
+
+          {/if}
+          
+          {#if work.repo}
+            <a href={work.repo}>(<strong>GitHub</strong>)</a>
+          {/if}
+      
+      </span
       >
+      
     </p>
     {#if work.highlights.length > 0}
       <ul>
         {#each work.highlights as highlight}
           <li>{@html highlight}</li>
         {/each}
+        {#if work.technology && work.technology.length > 0}
+          <li><strong>Technology:</strong> {work.technology.join(', ')}</li>
+        {/if}
       </ul>
     {/if}
   {/each}

@@ -35,7 +35,7 @@ const OUT = process.argv[2] === '--dev' ? 'public' : 'dist';
     `${OUT}/RavindaranNavinn_Resume.pdf`,
     {
       all: '', // remove existing tags
-      Title: 'Navinn Ravindaran - Resume',
+      Title: 'Shaaf Yousaf - Resume',
       Subject: 'Resume',
       Author: 'Navinn Ravindaran',
       Creator: 'Chromium (Puppeteer)',

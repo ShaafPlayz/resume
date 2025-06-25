@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Navinn Ravindaran",
+    "name": "Muhammad Shaaf Yousaf",
     "label": "",
-    "email": "navinn.ravindaran@mail.utoronto.ca",
-    "url": "https://navn.me",
+    "email": "shaaf.yousaf@mail.utoronto.ca",
+    "url": "https://shaafyousaf.me",
     "location": {
       "city": "Toronto",
       "region": "Ontario",
@@ -13,79 +13,31 @@
     "profiles": [
       {
         "network": "github-alt",
-        "username": "navn-r",
-        "url": "https://github.com/navn-r"
+        "username": "ShaafPlayz",
+        "url": "https://github.com/ShaafPlayz"
       },
       {
         "network": "linkedin",
-        "username": "navn-r",
-        "url": "https://www.linkedin.com/in/navn-r"
+        "username": "shaafyousaf",
+        "url": "https://www.linkedin.com/in/shaafyousaf"
       }
     ]
   },
   "work": [
     {
-      "name": "American Express",
+      "name": "Planetze",
       "location": "Toronto, ON",
-      "position": "Full-Stack Software Engineer Intern",
-      "url": "https://www.americanexpress.com/en-ca/",
-      "startDate": "2023-09-05",
-      "endDate": "2023-12-22",
+      "position": "Android Developer (Academic Industry Project)",
+      "url": "https://planetze.io",
+      "startDate": "2024-09-05",
+      "endDate": "2024-12-22",
       "highlights": [
-        "Refined card member connections by <strong>50%</strong> at Pearson International Airport through building an Apple Wallet priority pass",
-        "Spearheaded an automated dependency management system with Node.js, TypeScript, GraphQL and GitHub Actions, reducing technical debt by <strong>27%</strong> through eliminating manual vulnerability patching"
-      ]
-    },
-    {
-      "name": "HubSpot",
-      "location": "Toronto, ON",
-      "position": "Software Engineer Co-op",
-      "url": "https://www.hubspot.com/",
-      "startDate": "2022-08-29",
-      "endDate": "2022-12-16",
-      "highlights": [
-        "Developed a VSCode extension leveraging TypeScript's internal type checker to provide full type introspection for symbols, eliminating the need to traverse multiple locations for nested type definitions",
-        "Implemented the ability to re-run migrations across <strong>1000+</strong> front-end repositories using React and Redux, streamlining core infrastructure workflows by removing redundant duplication of settings",
-        "Extended a project generator CLI to support automated code refactoring scripts using Node and TypeScript, enabling all HubSpot front-end developers to build code mods using the TypeScript abstract syntax tree"
-      ]
-    },
-    {
-      "name": "Royal Bank of Canada",
-      "location": "Toronto, ON",
-      "position": "Full-Stack Software Developer Co-op",
-      "url": "https://www.rbc.com/",
-      "startDate": "2022-01-10",
-      "endDate": "2022-04-22",
-      "highlights": [
-        "Optimised <strong>35+</strong> crucial user interactions by leveraging Google Analytics to streamline the mortgage application process",
-        "Expanded access to new French and Bilingual mortgage clients by implementing automated language preference with app-wide translations using Angular and Spring boot"
-      ]
-    },
-    {
-      "name": "Halo Science",
-      "location": "Chicago, IL",
-      "position": "Full-Stack Software Engineer Intern",
-      "url": "https://www.halo.science",
-      "startDate": "2021-05-03",
-      "endDate": "2021-08-31",
-      "highlights": [
-        "Pioneered an E2E automation pipeline with Jest, Playwright and GitHub Actions, eliminating redundant manual user tests",
-        "Reduced developer setup from <strong>2 hours</strong> to <strong>10 minutes</strong> by dockerizing the React and Rails codebase with Docker Compose",
-        "Built a <strong>33%</strong> faster database seeding script with auto-generated data using Ruby, replacing outdated migration scripts"
-      ]
-    },
-    {
-      "name": "CaseWare International",
-      "location": "Toronto, ON",
-      "position": "Software Developer Co-op",
-      "url": "https://www.caseware.com/ca",
-      "startDate": "2020-09-08",
-      "endDate": "2021-04-30",
-      "highlights": [
-        "Decreased developer & QA regression efforts by <strong>60%</strong> by converting manual tests to unit tests with Karma and Jasmine",
-        "Refactored <strong>700+</strong> lines of legacy AngularJS plugins to Angular, improving code modularity using dependency injection",
-        "Developed an audit trail function used by <strong>130+</strong> international accounting firms, minimizing problematic behaviors such as asset misappropriation and protecting clients by providing transaction history"
-      ]
+        "Built a full featured Android application for the company Planetze (using Android Studio, Java) to track user carbon footprint and provide real-time data as feedback.",
+        "Selected for final project presentation to Planetze out of 34 groups; led sprint planning using Agile Scrum with Jira and Git."
+      ],
+      "repo": "https://github.com/KrishnaManamohan/B07FinalProject",
+      "type": "Android App",
+      "technology": ["Java", "XML", "Firebase", "Android Studio", "Figma"]
     }
   ],
   "education": [
@@ -93,58 +45,63 @@
       "institution": "University of Toronto",
       "location": "Toronto, ON",
       "url": "https://www.utoronto.ca/",
-      "area": "Computer Science Co-op",
+      "area": "Computer Science - Software Engineering Co-op",
       "studyType": "HBSc",
-      "startDate": "2019-09-08",
-      "endDate": "2024-04-30",
-      "score": "3.28",
+      "startDate": "2023-02-01",
+      "endDate": "2027-04-30",
+      "score": "null",
       "courses": [
         "Software Design",
         "Introduction to Databases and Web Applications",
         "Intro to Software Engineering",
-        "Programming on the Web",
-        "Engineering Large Software Systems"
+        "Data Structures",
+        "Systems Programming",
+        "Human Computer Interaction"
       ],
-      "awards": ["Dean's List", "UofT Scholar"]
+      "awards": ["Google & HBSU Best HealthCare AI Hack, GenAI Genesis 2025"]
     }
   ],
   "skills": [
     {
       "name": "Languages",
       "keywords": [
-        "TypeScript",
         "JavaScript",
+        "Python",
+        "Java",
+        "C",
+        "Assembly",
         "HTML",
         "CSS",
-        "Java",
-        "Python",
-        "Ruby",
+        "TypeScript",
         "SQL",
-        "C",
-        "Shell"
+        "Shell",
+        "Dart",
+        "R"
       ]
     },
     {
       "name": "Frameworks & Tools",
       "keywords": [
         "React",
+        "Next.js",
         "Angular",
         "Node.js",
-        "Ruby on Rails",
         "Docker",
         "Jira",
         "MongoDB",
         "PostgreSQL",
+        "Jupyter",
+        "Figma",
         "Firebase"
       ]
     },
     {
       "name": "Concepts",
       "keywords": [
-        "APIs (REST, GraphQL)",
-        "Agile Methodologies (Scrum, Kanban)",
-        "Test Driven Development",
-        "DBMS",
+        "API Design",
+        "Agile Methodologies (Scrum)",
+        "Client-Server Protocol",
+        "Unit Testing",
         "CI/CD"
       ]
     }
@@ -186,6 +143,51 @@
         "React",
         "TypeScript",
         "Firebase Realtime Database + Authentication"
+      ]
+    }
+  ],
+  "hackathon": [
+    {
+      "name": "imagEHR",
+      "location": "Toronto, ON",
+      "position": "Google and HBSU Best HealthCare AI Award (Top 5 out of 160)",
+      "url": "",
+      "highlights": [
+        "Reduced clinical data structuring time from 8–9 weeks to 30 seconds by creating an automated pipeline combining YOLOv5 image inference and Cohere LLM-based CDISC mapping."
+      ],
+      "repo": "https://github.com/Toyakki/ImagEHR",
+      "type": "Web Application",
+      "technology": [
+        "Flask",
+        "Cohere",
+        "YOLOv5",
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Render",
+        "Figma"
+      ]
+    },
+    {
+      "name": "OpenAI to Z Challenge",
+      "location": "Earth, MilyWay",
+      "position": "Geospatial Research",
+      "url": "https://openai.com/openai-to-z-challenge/",
+      "highlights": [
+        "Produced a geospatial analysis workflow, integrating Google Earth Engine (GEE) and OpenAI's o4/o3-mini and 4.1 models to analyze satellite datasets to uncover unknown archaeological site(s) in the Amazon Rainforest."
+      ],
+      "repo": "https://github.com/ShaafPlayz/OpenAI-to-Z-challenge",
+      "type": "Machine Learning",
+      "technology": [
+        "Jupyter",
+        "Conda",
+        "OpenAI LLM",
+        "GitHub Models",
+        "Python",
+        "GeoPandas",
+        "Numpy",
+        "Google Earth Engine"
       ]
     }
   ]

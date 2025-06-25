@@ -29,13 +29,13 @@
 <style lang="scss">
   section {
     display: grid;
-    grid-template-columns: auto 15rem;
+    grid-template-columns: auto 19rem;
     height: max-content;
   }
 
   h1 {
     font-family: var(--serif);
-    font-size: #{calc(28pt / 12pt)}rem;
+    font-size: #{calc(28pt / 13pt)}rem;
   }
 
   .contacts {
@@ -47,7 +47,7 @@
   .contact {
     display: grid;
     grid-template-columns: 1rem auto;
-    column-gap: 0.5rem;
+    column-gap: 0.1rem;
     align-items: center;
   }
 

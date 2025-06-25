@@ -6,6 +6,7 @@ export namespace Resume {
     education: IEducation[];
     skills: ISkill[];
     projects: IProject[];
+    hackathon?: IWork[];
   }
 
   export interface IBasics {
@@ -32,9 +33,12 @@ export namespace Resume {
     location: string;
     position: string;
     url: string;
-    startDate: string;
-    endDate: string;
+    startDate?: string;
+    endDate?: string;
     highlights: string[];
+    repo?: string;
+    technology?: string[];
+    type?: string;
   }
 
   export interface IEducation {
