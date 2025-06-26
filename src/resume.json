@@ -25,9 +25,45 @@
   },
   "work": [
     {
+      "name": "Halo",
+      "location": "Toronto, ON",
+      "position": "MIPS Platformer Game",
+      "url": "",
+      "startDate": "2025-02-05",
+      "endDate": "2025-04-22",
+      "highlights": [
+        "Designed and developed a game in Assembly, simulating bare-metal programming on constrained hardware with a 512×256 pixel bitmap display at 33 frames per second.",
+        "Implemented core gameplay logic (movement, jumping, shooting, coin collection, win/loss conditions) using direct register-level control, finite-state machines, and custom animation loops."
+      ],
+      "repo": "https://github.com/ShaafPlayz/Halo-Pixel-Edition.git",
+      "type": "Assembly Game",
+      "technology": ["Assembly", "Mars MIPS Simulator"]
+    },
+    {
+      "name": "Hawkeye",
+      "location": "Toronto, ON",
+      "position": "Unix System Monitoring",
+      "url": "",
+      "startDate": "2025-03-05",
+      "endDate": "2025-04-22",
+      "highlights": [
+        "Developed a real-time Unix-based CLI monitoring tool in C to track memory usage, CPU utilization, and core frequency using three concurrent child processes with inter-process communication (IPC) via pipes.",
+        "Rendered ANSI-based ASCII graphs for real-time terminal output, maintaining runtime deviation under 1% of theoretical performance targets."
+      ],
+      "repo": "https://github.com/ShaafPlayz/System-Monitoring-Tool-Unix.git",
+      "type": "CLI Tool",
+      "technology": [
+        "Ubuntu",
+        "C",
+        "Concurrency",
+        "Signal Handling",
+        "MAKEFILE"
+      ]
+    },
+    {
       "name": "Planetze",
       "location": "Toronto, ON",
-      "position": "Android Developer (Academic Industry Project)",
+      "position": "Android Developer (Industry Project)",
       "url": "https://planetze.io",
       "startDate": "2024-09-05",
       "endDate": "2024-12-22",
@@ -106,60 +142,22 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "DrawHub",
-      "description": "A realtime collaborative whiteboard platform featuring custom visibility, email notifications, and exportable canvasses",
-      "highlights": [],
-      "startDate": "2022-07",
-      "endDate": "2022-08",
-      "repo": "https://github.com/navn-r/drawhub",
-      "type": "Website",
-      "technology": [
-        "React",
-        "NestJS",
-        "WebSockets",
-        "GraphQL",
-        "MongoDB",
-        "Redis",
-        "Auth0",
-        "AWS S3",
-        "Kubernetes",
-        "DigitalOcean"
-      ]
-    },
-    {
-      "name": "Noten",
-      "description": "A semester-based grade tracker with <strong>100+</strong> installs, multiple grade scales, grade prediction, and selective calculation",
-      "highlights": [],
-      "startDate": "2020-04",
-      "endDate": "2020-05",
-      "repo": "https://github.com/navn-r/noten",
-      "url": "https://play.google.com/store/apps/details?id=com.noten",
-      "type": "Google Play Store",
-      "features": [],
-      "technology": [
-        "Ionic",
-        "React",
-        "TypeScript",
-        "Firebase Realtime Database + Authentication"
-      ]
-    }
-  ],
+  "projects": [],
   "hackathon": [
     {
       "name": "imagEHR",
       "location": "Toronto, ON",
-      "position": "Google and HBSU Best HealthCare AI Award (Top 5 out of 160)",
+      "position": "Google Best HealthCare AI Award at GenAI Genesis 2025 (Top 5 out of 160+)",
       "url": "",
       "highlights": [
-        "Reduced clinical data structuring time from 8–9 weeks to 30 seconds by creating an automated pipeline combining YOLOv5 image inference and Cohere LLM-based CDISC mapping."
+        "Created an automated pipeline combining YOLOv5 image inference and Cohere LLM-based CDISC mapping to reduce clinical data structuring time from 8–9 weeks to 30 seconds by creating.",
+        "Registered at Sam Ibrahim CIEEIL center as a Start-Up to continue to inovate in the healthcare/ai industry."
       ],
       "repo": "https://github.com/Toyakki/ImagEHR",
       "type": "Web Application",
       "technology": [
         "Flask",
-        "Cohere",
+        "Cohere Models",
         "YOLOv5",
         "Python",
         "JavaScript",
@@ -170,12 +168,31 @@
       ]
     },
     {
-      "name": "OpenAI to Z Challenge",
+      "name": "Parsea",
+      "highlights": [
+        "Functional automation tool that fetches email inbox, anonymizes sensitive data, and categorizes emails to save users time."
+      ],
+      "position": "Automation Tool",
+      "startDate": "",
+      "endDate": "2025-08",
+      "repo": "https://github.com/ShaafPlayz/Parsea.git",
+      "type": "Desktop App",
+      "technology": [
+        "Electron.js",
+        "IMAP",
+        "Cohere Models",
+        "JavaScript",
+        "Html",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Planetary AI Research",
       "location": "Earth, MilyWay",
-      "position": "Geospatial Research",
+      "position": "OpenAI to Z Challenge",
       "url": "https://openai.com/openai-to-z-challenge/",
       "highlights": [
-        "Produced a geospatial analysis workflow, integrating Google Earth Engine (GEE) and OpenAI's o4/o3-mini and 4.1 models to analyze satellite datasets to uncover unknown archaeological site(s) in the Amazon Rainforest."
+        "Produced a geospatial analysis workflow, for OpenAI to Z Challenge, integrating Google Earth Engine, GeoPandas, and OpenAI GPT-4.1 vision models to analyze satellite datasets and detect environmental changes in the Amazon Rainforest."
       ],
       "repo": "https://github.com/ShaafPlayz/OpenAI-to-Z-challenge",
       "type": "Machine Learning",

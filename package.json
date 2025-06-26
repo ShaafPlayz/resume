@@ -32,8 +32,8 @@
   },
   "lint-staged": {
     "src/*": [
-      "npm run check",
-      "npm run format"
+      "pnpm run check",
+      "pnpm run format"
     ]
   }
 }

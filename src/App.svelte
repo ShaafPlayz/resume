@@ -7,7 +7,7 @@
   import Skills from './sections/Skills.svelte';
 
   import type { Resume } from './resume.schema';
-  import Projects from './sections/Projects.svelte';
+  // import Projects from './sections/Projects.svelte';
 
   export let resume: Resume.ISchema;
 </script>
@@ -32,17 +32,17 @@
   <h3>EDUCATION</h3>
   <Education education={resume.education} />
 
-  <h3>SKILLS</h3>
-  <Skills skills={resume.skills} />
+  <h3>EXPERIENCE & PROJECTS</h3>
+  <Experience experience={resume.hackathon} />
 
   <h3>ACADEMIC PROJECTS</h3>
   <Experience experience={resume.work} />
 
-  <h3>HACKATHON PROJECTS</h3>
-  <Experience experience={resume.hackathon} />
+  <h3>SKILLS</h3>
+  <Skills skills={resume.skills} />
 
-  <h3>SIDE PROJECTS</h3>
-  <Projects projects={resume.projects} />
+  <!-- <h3>SIDE PROJECTS</h3>
+  <Projects projects={resume.projects} /> -->
 </main>
 
 <p in:fade={{ delay: 300, duration: 300 }}>
